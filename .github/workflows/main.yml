@@ -5,15 +5,15 @@ name: Analytica-Architecture
 
 env:
   AZURE_WEB_NAME: Analytica-Training-Azure
-  WORKING_DIRECTORY: "."
-  PYTHON_VERSION: "3.8"
-  STARTUP_COMMAND: "python server.py"
+  WORKING_DIRECTORY: '.'
+  PYTHON_VERSION: 3.8
+  STARTUP_COMMAND: 'python server.py'
 
 on:
   push:
     branches:
     - main
-  pull_request:
+    pull_request:
     - main
 
 jobs:
